@@ -9,16 +9,12 @@ import org.junit.jupiter.api.Test;
  public class HastaTakipTest {
 	 
 
-	 @Test
-		void testListele() {
+	@Test
+	void testListele() {
 		 
-			 List<String> hasta = Arrays.asList("Oğuzhan");
-		     List<String> liste = Arrays.asList("Oğuzhan");
-		       Assert.assertEquals(hasta, liste);
+	List<String> hasta = Arrays.asList("Oğuzhan");
+	List<String> liste = Arrays.asList("Oğuzhan");
+	Assert.assertEquals(hasta, liste);
 			
 		}
-	
-	
-		
-		
 }
