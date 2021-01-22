@@ -11,8 +11,8 @@ import org.junit.jupiter.api.Test;
 
 	@Test
 	void testListele() {
-	List<String> hasta = Arrays.asList("Oğuzhan");
-	List<String> liste = Arrays.asList("Oğuzhan");
+	List<String> hasta = Arrays.asList("Oğuz");
+	List<String> liste = Arrays.asList("Oğuz");
 	Assert.assertEquals(hasta, liste);
 			
 		}
