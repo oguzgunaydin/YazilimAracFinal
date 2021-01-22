@@ -8,8 +8,7 @@ import org.junit.jupiter.api.Test;
 
  public class HastaTakipTest {
 	 
-
-	 @Test
+	 	@Test
 		void testListele() {
 		 
 			 List<String> hasta = Arrays.asList("Oğuzhan");
@@ -17,6 +16,8 @@ import org.junit.jupiter.api.Test;
 		       Assert.assertEquals(hasta, liste);
 			
 		}
+	 	
+	 	
 	
 	
 		
