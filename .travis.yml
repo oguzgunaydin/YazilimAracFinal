@@ -4,5 +4,4 @@ script:
 jdk:
     - openjdk8
 aftersuccess:
-    export CODECOV_TOKEN="78313103-d582-426f-a72a-03fe620f5037"
-    - bash <(curl -s https://codecov.io/bash) -t token 
+    - bash <(curl -s https://codecov.io/bash) 
